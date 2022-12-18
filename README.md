@@ -27,6 +27,7 @@ In addition, [argoproj-labs](https://github.com/argoproj-labs) is a separate Git
 
 ## Books <a name="books"></a>
 
+* [Codefresh, "GitOps with Argo CD"](https://codefresh.io/)
 ## Blog Posts <a name="blog"></a>
 
 **Basic**
@@ -38,4 +39,10 @@ In addition, [argoproj-labs](https://github.com/argoproj-labs) is a separate Git
 
 ## Courses <a name="courses"></a>
 
+* [Get Certified for GitOps with Argo](https://learning.codefresh.io/)
 ## Videos <a name="videos"></a>
+
+**English**
+
+**Spanish**
+* [ArgoCD - La MEJOR herramiento para CD en KUBERNETES](https://www.youtube.com/watch?v=e6Wmu77HoV8)
