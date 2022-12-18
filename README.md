@@ -1,5 +1,6 @@
 # Brief research on ArgoCD
 
+![Argo Image](images/argo-horizontal-color.png)
 
 ## What is ArgoCD
 
