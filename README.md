@@ -1,8 +1,8 @@
 # Brief research on ArgoCD
 
-![Argo Image](images/argo-horizontal-color.png)
-
 ## What is ArgoCD
+
+![Argo Image](images/argo-horizontal-color.png)
 
 Argo consists of a set of open source tools for deploying and running applications and workloads on Kubernetes, including:
 
