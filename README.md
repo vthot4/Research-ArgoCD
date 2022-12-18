@@ -5,6 +5,7 @@
 ## What is ArgoCD
 
 Argo consists of a set of open source tools for deploying and running applications and workloads on Kubernetes, including:
+
 * [Argo Workflows](https://argoproj.github.io/workflows/): Kubernetes-native workflow engine supporting DAG and step-based workflows.
 * [Argo CD](https://argoproj.github.io/cd/): Declarative continuous delivery with a fully-loaded UI.
 * [Argo Rollouts](https://argoproj.github.io/rollouts/): Advanced Kubernetes deployment strategies such as Canary and Blue-Green made easy.
@@ -22,14 +23,10 @@ In addition, [argoproj-labs](https://github.com/argoproj-labs) is a separate Git
 
 ## Introduction <a name="introduction"></a>
 
-
 ## Books <a name="books"></a>
-
 
 ## Blog Posts <a name="blog"></a>
 
-
 ## Courses <a name="courses"></a>
-
 
 ## Videos <a name="videos"></a>
