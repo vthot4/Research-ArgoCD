@@ -22,14 +22,14 @@ We can see the details of the application created by clicking on it.
 Congratulations! Your have setup your first application with GitOps.
 However if you check your cluster with
 
-```
+```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ kubectl get pods
 NAME                                READY   STATUS    RESTARTS   AGE
 simple-deployment-9d88c574d-nkmsg   1/1     Running   0          8m25s
 ```
 
-````
+```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ k scale deployment simple-deployment --replicas 3
 deployment.apps/simple-deployment scaled
@@ -70,12 +70,13 @@ Try the following commands
 - `argocd app get demo`
 - `argocd app history demo`
 
-````bash
+```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ argocd app list
 NAME  CLUSTER                         NAMESPACE  PROJECT  STATUS  HEALTH   SYNCPOLICY  CONDITIONS  REPO                                       PATH          TARGET
 demo  https://kubernetes.default.svc  default    default  Synced  Healthy  Auto        <none>      https://github.com/vthot4/Research-ArgoCD  ./labs/lab01  HEAD
-````
+```
+
 ```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ argocd app get demo
