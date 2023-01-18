@@ -131,7 +131,7 @@ Now deploy it again.
 --path "./simple-app" \
 --dest-namespace default \
 --dest-server https://kubernetes.default.svc
-application 'demo2' created
+application 'demo' created
 ```
 
 The application will appear in the ArgoCD dashboard.

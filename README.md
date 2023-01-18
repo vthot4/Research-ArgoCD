@@ -44,6 +44,12 @@ In addition, [argoproj-labs](https://github.com/argoproj-labs) is a separate Git
 * [GitOps Architecture with GitHub Actions & ArgoCD with Slack notifications](https://abvijaykumar.medium.com/chapter-4-gitops-architecture-with-github-actions-argocd-with-slack-notifications-729ace2d7db4)
 * [ArgoCD: users, access, and RBAC](https://dev.to/setevoy/argocd-users-access-and-rbac-kh)
 * [ArgoCD: Okta integration, and user group](https://dev.to/codefreshio/getting-started-with-gitops-and-argo-cd-1j2f)
+* [Argo CD CLI Installation and Commands](https://foxutech.medium.com/argo-cd-cli-installation-and-commands-65ab578ed75)
+* [Manage Kubernetes Cluster with Terraform and Argo CD](https://piotrminkowski.com/2022/06/28/manage-kubernetes-cluster-with-terraform-and-argo-cd/)
+* [Getting Started with GitOps and ArgoCD](https://dev.to/codefreshio/getting-started-with-gitops-and-argo-cd-1j2f)
+* [Continuous Delivery for Kubernetes with GitOps and Argo cD](https://betterprogramming.pub/continuous-delivery-for-kubernetes-with-gitops-and-argocd-589bea494f44)
+* [Chapter 4: GitOps Architecture with GitHub Actions & ArgoCD with Slack notifications](https://abvijaykumar.medium.com/chapter-4-gitops-architecture-with-github-actions-argocd-with-slack-notifications-729ace2d7db4)
+
 
 
 ### ArgoCD + Helm
@@ -63,6 +69,8 @@ In addition, [argoproj-labs](https://github.com/argoproj-labs) is a separate Git
 
 ### English
 * [ArgoCon 2022](https://youtube.com/playlist?list=PLj6h78yzYM2MbKazKesjAx4jq56pnz1XE)
+* [Deploying Argo CD in Kubernetes. Creating your first App](https://www.youtube.com/watch?v=vSnVhJkyJBw)
+
 
 ### Spanish
 
