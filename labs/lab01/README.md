@@ -1,4 +1,11 @@
+# LAB01 . First steps.
 
+## Install ArgoCD
+
+
+
+
+## First APP
 
 The UI starts empty because nothing is deployed on our cluster. Click the "New app" button on the top left and fill the following details:
 
