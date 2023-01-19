@@ -1,6 +1,45 @@
-# LAB01 . First steps.
+# LAB-01 . First steps.
 
 ## Install ArgoCD
+
+* Create ArgoCD namespace
+
+```bash
+kubectl create namesapce argocd
+```
+
+* Check ArgoCD namespace is created 
+
+```bash
+kubectl get ns
+```
+
+* Install latest version of ArgoCD 
+```
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+
+* Check ArgoCD Deployment
+```bash
+kubectl get all -n argocd
+```
+
+* Get Default Admin Secret
+```bash
+ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
+```
+
+* Access The Argo CD API Server
+
+```
+kubectl port-forward svc/argocd-server -n argocd 8080:443
+```
+
+* Access ArgoCD API Server from browser
+```bash
+http://localhost:8080
+```
+![Argo Image](images/lab01_004.png)
 
 
 
@@ -114,7 +153,7 @@ ID  DATE                           REVISION
 2   2023-01-18 22:40:57 +0100 CET  HEAD (b4b4d8c)
 ```
 
-```shell
+```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ argocd app delete demo
 Are you sure you want to delete 'demo' and all its resources? [y/n]
@@ -130,7 +169,7 @@ Confirm the deletion by answering yes in the terminal. The application will disa
 Now deploy it again.
 
 
-```shell
+```bash
 (⎈ |kind-argo-cluster:default)╭─victormartinez@mac-MacBook-Pro ~/labs/argocd
 ╰─$ argocd app create demo2 \                                                                     
 --project default \
